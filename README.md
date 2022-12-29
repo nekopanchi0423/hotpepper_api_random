@@ -2,9 +2,9 @@
 ホットペッパーのAPIを使って、飲食店をランダムに提案してくれるプログラムです。
 
 # ホットペッパーAPI
-無料で使えるホットペッパーAPIを使います。利用するには登録が必要です。
-ホットペッパーAPIリファレンス → [ホットペッパー | APIリファレンス - リクルートWEBサービス](https://webservice.recruit.co.jp/doc/hotpepper/reference.html)
-ホットペッパーAPIはここから登録 → [APIキー発行登録 - リクルートWEBサービス](https://webservice.recruit.co.jp/register/)
+無料で使えるホットペッパーAPIを使います。利用するには登録が必要です。  
+ホットペッパーAPIリファレンス → [ホットペッパー | APIリファレンス - リクルートWEBサービス](https://webservice.recruit.co.jp/doc/hotpepper/reference.html). 
+ホットペッパーAPIはここから登録 → [APIキー発行登録 - リクルートWEBサービス](https://webservice.recruit.co.jp/register/). 
 (登録は数分程度で完了できます)
 
 # プログラムの流れ
@@ -82,7 +82,7 @@ for store_info in select_shop:
 
 # 実行例
 ```terminal
-% python hotpepper_api.py
+$ python hotpepper_api.py
 キーワードを入力：札幌駅
 居酒屋 炭火居酒屋 炎 北2条店 https://www.hotpepper.jp/strJ001040307/?vos=nhppalsa000016
 居酒屋 ミートボーイニューヨーク MEAT BOY N.Y 札幌駅前店 https://www.hotpepper.jp/strJ001009952/?vos=nhppalsa000016
