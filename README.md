@@ -23,7 +23,7 @@ API_KEY = '取得したAPIキー'
 KEYWORD = input('キーワードを入力：')
 ```
 最初にPythonAPIを叩くのに必要なrequestsとリストの要素をランダムに抽出するためにrandomを呼び出します。次にリクエストURLを指定しています。リクエストURLは変わっている可能性があるので、APIリファレンスで確認してください。そして、登録申請で取得したAPIキーを設定していきます。
-<br>
+
 ```python
 body = {
     'key':API_KEY,
@@ -33,12 +33,12 @@ body = {
 }
 ```
 bodyにAPIキーと各パラメータを指定していきます。今回はjson形式で、検索結果の最大出力データ数を100で設定しています。
-<br>
+
 ```python
 response = requests.get(URL,body)
 ```
 getメソッドでリクエストを送ります。
-<br>
+
 ```python
 datum = response.json()
 stores = datum['results']['shop']
