@@ -3,8 +3,8 @@
 
 # ホットペッパーAPI
 無料で使えるホットペッパーAPIを使います。利用するには登録が必要です。  
-ホットペッパーAPIリファレンス → [ホットペッパー | APIリファレンス - リクルートWEBサービス](https://webservice.recruit.co.jp/doc/hotpepper/reference.html). 
-ホットペッパーAPIはここから登録 → [APIキー発行登録 - リクルートWEBサービス](https://webservice.recruit.co.jp/register/). 
+ホットペッパーAPIリファレンス → [ホットペッパー | APIリファレンス - リクルートWEBサービス](https://webservice.recruit.co.jp/doc/hotpepper/reference.html).  
+ホットペッパーAPIはここから登録 → [APIキー発行登録 - リクルートWEBサービス](https://webservice.recruit.co.jp/register/).  
 (登録は数分程度で完了できます)
 
 # プログラムの流れ
