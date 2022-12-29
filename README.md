@@ -22,8 +22,7 @@ URL = 'http://webservice.recruit.co.jp/hotpepper/gourmet/v1/'
 API_KEY = '取得したAPIキー'
 KEYWORD = input('キーワードを入力：')
 ```
-最初にPythonAPIを叩くのに必要なrequestsとリストの要素をランダムに抽出するためにrandomを呼び出します。次にリクエストURLを指定しています。リクエストURLは変わっている可能性があるので、APIリファレンスで確認してください。そして、登録申請で取得したAPIキーを設定していきます。
-
+最初にPythonAPIを叩くのに必要なrequestsとリストの要素をランダムに抽出するためにrandomを呼び出します。次にリクエストURLを指定しています。リクエストURLは変わっている可能性があるので、APIリファレンスで確認してください。そして、登録申請で取得したAPIキーを設定していきます。  
 
 ```python
 body = {
